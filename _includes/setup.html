@@ -1,0 +1,264 @@
+<h3>Overview of the tools</h3>
+
+<div class="row-fluid">
+  <div class="span6">
+    <h4>Editor</h4>
+    <p>
+      When you're writing code, it's nice to have a text
+      editor that is optimized for writing code, with features
+      like automatic color-coding of key words.
+    </p>
+    <h4>The Bash Shell</h4>
+    <p>
+      Bash is a commonly-used shell. Using a shell gives you
+      more power to do more tasks more quickly with your
+      computer.
+    </p>
+    <h4>Python</h4>
+    <p>
+      Python is becoming very popular in scientific computing,
+      and it's a great language for teaching general programming concepts due to its easy-to-read syntax.
+      We teach with Python version 2.7,
+      since it is still the most widely used.
+      Installing all the scientific packages for Python individually can be a bit difficult,
+      so we recommend an all-in-one installer.
+    </p>
+  </div>
+  <div class="span6">
+    <h4>IPython Notebook</h4>
+    <p>The <a href="http://ipython.org/notebook.html">IPython Notebook</a> is a web-based interface for interactive computing with 
+      Python. Individual notebooks are composable, executable, and sharable documents 
+      that mix text, code, data, and visualizations. The IPython Notebook comes pre-loaded
+      on many all-in-one python installers like <a href="http://continuum.io/anacondace.html">Anaconda CE.</a>
+    <h4>SQL</h4>
+    <p>
+      SQL is a specialized programming language used with databases. SQL is a <i>declarative</i> 
+      langauge for describing (declaring) the data you want from the database.
+      We use a firefox plugin called 
+      <a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">SQLite Manager</a>,
+      for the lessons.
+    </p>
+  </div>
+</div>
+
+<h3>Windows Installation</h3>
+
+<div class="row-fluid">
+  <div class="span6">
+    <h4>Python</h4>
+    <ul>
+      <li>
+        Download and install  <a href="http://continuum.io/anacondace.html">Anaconda CE</a>.
+      </li>
+      <li>
+        Use all of the defaults for installation
+        <em>except</em>
+        make sure to check <strong>Make Anaconda the default Python</strong>.
+      </li>
+    </ul>
+    </ul>
+    <h4>Editor</h4>
+    <p>
+      <a href="http://notepad-plus-plus.org/">Notepad++</a> is a
+      popular free code editor for Windows.
+      Be aware that you must add its installation directory to your system path
+      in order to launch it from the command line
+      (or have other tools like Git launch it for you).
+      Please ask your instructor to help you do this.
+    </p>
+  </div>
+  <div class="span6">
+    <h4 id="firefox-sqlite">Firefox SQLite Plugin</h4>
+    <p>
+      Windows doesn't have <code>sqlite3</code> available on the the command line,
+      so we will use <a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">this plugin</a>
+      for Firefox instead.
+      To install it:
+    </p>
+    <ul>
+      <li>
+  Start Firefox.
+      </li>
+      <li>
+  Go to the <a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">plugin homepage</a>.
+      </li>
+      <li>
+  Click the "Add Now" button.
+      </li>
+      <li>
+  Click "Install Now" on the dialog that appears after the download completes.
+      </li>
+      <li>
+  Restart Firefox when prompted.
+      </li>
+      <li>
+  Select "SQLite Manager" from the "Tools" menu.
+      </li>
+    </ul>
+    
+  </div>
+</div>
+
+<h3>Mac OS X Installation</h3>
+
+<div class="row-fluid">
+  <div class="span6">
+    <h4>Python</h4>
+    <ul>
+      <li>
+        Download and install  <a href="http://continuum.io/anacondace.html">Anaconda CE</a>.
+      </li>
+      <li>
+        Use all of the defaults for installation
+        <em>except</em>
+        make sure to check <strong>Make Anaconda the default Python</strong>.
+      </li>
+    </ul>
+    <h4>Editor</h4>
+    <p>
+      We recommend
+      <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
+      <a href="http://www.sublimetext.com/">Sublime Text</a>.
+      In a pinch, you can use <code>nano</code> or <code>vi</code>,
+      which should be pre-installed.
+    </p>
+  </div>
+  <div class="span6">
+    <h4 id="firefox-sqlite">Firefox SQLite Plugin</h4>
+    <p>
+      Instead of using <code>sqlite3</code> from the command line,
+      we will use <a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">this plugin</a>
+      for Firefox instead.
+      To install it:
+    </p>
+    <ul>
+      <li>
+  Start Firefox.
+      </li>
+      <li>
+  Go to the <a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">plugin homepage</a>.
+      </li>
+      <li>
+  Click the "Add Now" button.
+      </li>
+      <li>
+  Click "Install Now" on the dialog that appears after the download completes.
+      </li>
+      <li>
+  Restart Firefox when prompted.
+      </li>
+      <li>
+  Select "SQLite Manager" from the "Tools" menu.
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- <h3>Linux</h3>
+
+<div class="row-fluid">
+  <div class="span6">
+    <h4>Bash</h4>
+    <p>
+      The default shell is usually <code>bash</code>,
+      but if your machine is set up differently
+      you can run it by opening a terminal and typing <code>bash</code>.
+      There is no need to install anything.
+    </p>
+    <h4>Git</h4>
+    <p>
+      If Git is not already available on your machine you can try
+      to install it via your distro's package manager
+      (e.g. <code>apt-get</code>).
+    </p>
+    <h4>Editor</h4>
+    <p>
+      <a href="http://kate-editor.org/">Kate</a> is one option for Linux users.
+      In a pinch, you can use <code>nano</code>,
+      which should be pre-installed.
+    </p>
+    <h4>R</h4>
+    <p>
+      You can download the binary files for your distribution
+      from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
+      you can use your package manager, e.g. for Debian/Ubuntu
+      run <code>apt-get install r-base</code>. Also, please install
+      the
+      <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+    </p>
+    <h4>SQLite</h4>
+    <p>
+      <code>sqlite3</code> comes pre-installed on Linux.
+      Alternatively,
+      you may install the Firefox SQLite browser plugin described <a href="#firefox-sqlite">below</a>.
+    </p>
+  </div>
+  <div class="span6">
+    <h4>Python</h4>
+    <p>
+      We recommend the all-in-one scientific Python installer
+      <a href="http://continuum.io/downloads.html">Anaconda</a>.
+      (Installation requires using the shell and if you aren't
+      comfortable doing the installation yourself just
+      download the installer and we'll help you at the boot
+      camp.)
+    </p>
+    <ol>
+      <li>
+        Download the installer that matches your operating
+        system and save it in your home folder.
+      </li>
+      <li>
+        Open a terminal window.
+      </li>
+      <li>
+        Type <pre>bash Anaconda-</pre> and then press
+        tab. The name of the file you just downloaded should
+        appear.
+      </li>
+      <li>
+        Press enter. You will follow the text-only
+        prompts. When there is a colon at the bottom of the
+        screen press the down arrow to move down through the
+        text. Type <code>yes</code> and press enter to approve
+        the license. Press enter to approve the default
+        location for the files. Type <code>yes</code> and
+        press enter to prepend Anaconda to
+        your <code>PATH</code> (this makes the Anaconda
+        distribution the default Python).
+      </li>
+    </ol>
+  </div>
+</div> -->
+
+<!-- <h3>Miscellaneous</h3>
+
+<div class="row-fluid">
+  <div class="span6">
+    
+  </div>
+  <div class="span6">
+     <h4>Virtual Machine</h4>
+    <p>
+      Some instructors prefer to have learners use a virtual machine (VM)
+      rather than install software on their own computers.
+      If your instructors have chosen to do this,
+      please:
+    </p>
+    <ol>
+      <li>
+	Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
+      </li>
+      <li>
+	Download our <a href="{{site.vm_url}}">VM image</a>.
+	<strong>Warning:</strong>
+	this file is 1.7 GByte,
+	so please download it <em>before</em> coming to your bootcamp.
+      </li>
+      <li>
+	Load the VM into VirtualBox by selecting "Import Appliance"
+	and loading the <code>.ova</code> file.
+      </li>
+    </ol> 
+  </div>
+</div> -->
