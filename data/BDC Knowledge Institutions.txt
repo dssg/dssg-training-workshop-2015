@@ -1,0 +1,407 @@
+Institution	City	State	Zipcode	RU_VH	ARL	ACAD_RES	Public_100K	Public_CA	latitude	longitude
+Sagesse Library	Simi Valley	California	93063	N	N	N	Y	N	34.29290009	-118.7289047
+Stockton-San Joaquin County Library	Stockton	California	95202	N	N	N	Y	N	37.958811	-121.291563
+Sunnyvale Public Library	Sunnyvale	California	94088	N	N	N	Y	N	37.371317	-122.039047
+Thousand Oaks Public Library	Thousand Oaks	California	91362	N	N	N	Y	N	34.181591	-118.927948
+Torrance Public Library	Torrance	California	90503	N	N	N	Y	N	33.837279	-118.343588
+Chattahoochee Valley Libraries	Columbus	Georgia	31906	N	N	N	Y	N	32.476361	-84.944124
+Live Oak Public Libraries	Savannah	Georgia	31401	N	N	N	Y	N	32.069592	-81.1054
+Hawaii State Public Library System	Honolulu	Hawaii	96813	N	N	N	Y	N	21.3098596	-157.8633682
+Ada Community Library	Boise City	Idaho	83709	N	N	N	Y	N	43.575896	-116.314928
+Boise Public Library	Boise City	Idaho		N	N	N	Y	N	43.610327	-116.207053
+Aurora Public Library	Aurora	Illinois	60505	N	N	N	Y	N	41.756282	-88.317062
+Chicago Public Library	Chicago	Illinois	60605	N	N	N	Y	N	41.867199	-87.6259
+Joliet Public Library	Joliet	Illinois	60432	N	N	N	Y	N	41.5268402	-88.0830335
+Naperville Public Library	Naperville	Illinois	60564	N	N	N	Y	N	41.763599	-88.144897
+Peoria Public Library	Peoria	Illinois	61602	N	N	N	Y	N	40.6951888	-89.5923806
+Rockford Public Library	Rockford	Illinois	61101	N	N	N	Y	N	42.272011	-89.092793
+Lincoln Library	Springfield	Illinois	62701	N	N	N	Y	N	39.79902908	-89.64648686
+Evansville Vanderburgh Public Library	Evansville	Indiana	47713	N	N	N	Y	N	37.971541	-87.565435
+Allen County Public Library	Fort Wayne	Indiana	46802	N	N	N	Y	N	41.075525	-85.099064
+Indianapolis-Marion County Public Library	Indianapolis	Indiana	46206	N	N	N	Y	N	39.89612	-86.227949
+Cedar Rapids Public Library	Cedar Rapids	Iowa	52404	N	N	N	Y	N	41.97694525	-91.66244321
+Des Moines Public Library	Des Moines	Iowa	50309	N	N	N	Y	N	41.586119	-93.630861
+Kansas City Kansas Public Library	Kansas City	Kansas	66101	N	N	N	Y	N	39.115347	-94.625165
+Olathe Public Library	Olathe	Kansas	66061	N	N	N	Y	N	38.88193	-94.818103
+Topeka and Shawnee County Public Library	Topeka	Kansas	66604	N	N	N	Y	N	39.051064	-95.695842
+Wichita Public Library	Wichita	Kansas	67202	N	N	N	Y	N	37.684614	-97.338335
+Lexington Public Library	Lexington-Fayette	Kentucky	40507	N	N	N	Y	N	38.04504013	-84.49636078
+Louisville Free Public Library	Louisville-Jefferson County	Kentucky	40203	N	N	N	Y	N	38.2442	-85.758699
+East Baton Rouge Parish Library	Baton Rouge	Louisiana	70806	N	N	N	Y	N	30.4426337	-91.1064567
+Lafayette Public Library	Lafayette	Louisiana	70501	N	N	N	Y	N	30.22655703	-92.01959476
+New Orleans Public Library	New Orleans	Louisiana	70112	N	N	N	Y	N	29.95752	-90.076859
+Shreve Memorial Library	Shreveport	Louisiana	71120	N	N	N	Y	N	32.51157	-93.743339
+Enoch Pratt Free Library	Baltimore	Maryland	21201	N	N	N	Y	N	39.294171	-76.616922
+Cambridge Public Library	Cambridge	Massachusetts	02138	N	N	N	Y	N	42.373425	-71.111022
+Samuel S. Pollard Memorial Library	Lowell	Massachusetts	01852	N	N	N	Y	N	42.646106	-71.31428
+Springfield City Library	Springfield	Massachusetts	01103	N	N	N	Y	N	42.103245	-72.584652
+Worcester Public Library	Worcester	Massachusetts	01608	N	N	N	Y	N	42.261216	-71.799919
+Ann Arbor District Libraries	Ann Arbor	Michigan	48104	N	N	N	Y	N	42.27875	-83.746064
+Detroit Public Library	Detroit	Michigan	48202	N	N	N	Y	N	42.373386	-83.077026
+Flint Public Library	Flint	Michigan	48502	N	N	N	Y	N	43.0218842	-83.6805394
+Grand Rapids Public Library	Grand Rapids	Michigan	49503	N	N	N	Y	N	42.931728	-85.654518
+Capital Area District Library	Lansing	Michigan	48933	N	N	N	Y	N	42.72985	-84.553819
+Sterling Heights Public Library	Sterling Heights	Michigan	48313	N	N	N	Y	N	42.59020083	-83.0111517
+Warren Public Library	Warren	Michigan	48093	N	N	N	Y	N	42.51108551	-83.02566528
+Minneapolis Public Library	Minneapolis	Minnesota	55401	N	N	N	Y	N	44.98056412	-93.27016449
+Saint Paul Public Library	St. Paul	Minnesota	55119	N	N	N	Y	N	44.94023132	-93.01474762
+Jackson/Hinds Public Library	Jackson	Mississippi	39201	N	N	N	Y	N	32.295841	-90.185249
+Mid-Continent Public Library	Independence	Missouri	64050	N	N	N	Y	N	39.111427	-94.390866
+Kansas City Public Library	Kansas City	Missouri	64105	N	N	N	Y	N	39.1022893	-94.5839187
+Springfield-Greene County Library	Springfield	Missouri	65810	N	N	N	Y	N	37.130162	-93.296928
+Richmond Heights Memorial Library	St. Louis	Missouri	63117	N	N	N	Y	N	38.627803	-90.331758
+Lincoln City Library	Lincoln	Nebraska	68508	N	N	N	Y	N	40.813145	-96.700974
+Omaha Public Library	Omaha	Nebraska	68102	N	N	N	Y	N	41.258096	-95.93532
+Henderson District Public Library	Henderson	Nevada	89012	N	N	N	Y	N	36.0205587	-115.0834631
+Las Vegas-Clark County Library District	Las Vegas	Nevada	89113	N	N	N	Y	N	36.042379	-115.246316
+North Las Vegas Library	North Las Vegas	Nevada	89030	N	N	N	Y	N	36.211899	-115.126099
+Washoe County Library	Reno	Nevada	89505	N	N	N	Y	N	39.526737	-119.804077
+Manchester City Library	Manchester	New Hampshire	03104	N	N	N	Y	N	42.991175	-71.463089
+"Free Public Library of Newark, New Jersey"	Newark	New Jersey	07102	N	N	N	Y	N	40.733398	-74.1735
+Alfred H. Baumann Free Library	Paterson	New Jersey	07424	N	N	N	Y	N	40.896025	-74.200186
+Albuquerque-Bernanillo County Library	Albuquerque	New Mexico	87102	N	N	N	Y	N	35.086473	-106.653324
+Buffalo and Greico Public Library	Buffalo	New York	14203	N	N	N	Y	N	42.8856512	-78.8743827
+Brooklyn Public Library	Brooklyn	New York	11238	N	N	N	Y	N	40.672895	-73.969029
+Queensborough Public Library	New York	New York	11432	N	N	N	Y	N	40.707912	-73.794546
+Rochester Public Library	Rochester	New York	14604	N	N	N	Y	N	43.153809	-77.607803
+Onondaga  Library System	Syracuse	New York	13214	N	N	N	Y	N	43.0456046	-76.1522476
+Public Library of Charlotte & Mecklenburg	Charlotte	North Carolina	28202	N	N	N	Y	N	35.228544	-80.844633
+Durham County Library	Durham	North Carolina	27701	N	N	N	Y	N	35.995092	-78.896627
+Cumberland County Public Library & Info. Ctr.	Fayetteville	North Carolina	28301	N	N	N	Y	N	35.066292	-78.866577
+Greensboro Public Library	Greensboro	North Carolina	27402	N	N	N	Y	N	36.07390814	-79.78674889
+Wake County Public Library	Raleigh	North Carolina	27680	N	N	N	Y	N	35.762794	-78.583443
+Forsyth County Public Library	Winston-Salem	North Carolina	27101	N	N	N	Y	N	36.098964	-80.251746
+Akron-Summit County Public Library	Akron	Ohio	44326	N	N	N	Y	N	41.08368516	-81.51737653
+Cincinnati and Hamilton County Public Library	Cincinnati	Ohio	45202	N	N	N	Y	N	39.104712	-84.513791
+Cleveland Public Library	Cleveland	Ohio	44114	N	N	N	Y	N	41.501496	-81.690866
+Columbus Metropolitan Library	Columbus	Ohio	43215	N	N	N	Y	N	39.964264	-83.003265
+Dayton Metro Library	Dayton	Ohio	45402	N	N	N	Y	N	39.757301	-84.186218
+Toledo-Lucas County Public Library	Toledo	Ohio	43604	N	N	N	Y	N	41.655342	-83.545181
+Pioneer Library System	Norman	Oklahoma	73069	N	N	N	Y	N	35.2314	-97.506897
+Metropolitan Library System	Oklahoma City	Oklahoma	73102	N	N	N	Y	N	35.471783	-97.518036
+Tulsa City-County Library	Tulsa	Oklahoma	74103	N	N	N	Y	N	36.156265	-95.993744
+Eugene Public Library	Eugene	Oregon	97401	N	N	N	Y	N	44.081257	-123.070091
+Multnomah County Library System	Portland	Oregon	97212	N	N	N	Y	N	45.541112	-122.663224
+Salem Public Library	Salem	Oregon	97301	N	N	N	Y	N	44.935353	-123.041371
+Allentown Public Library	Allentown	Pennsylvania	18102	N	N	N	Y	N	40.599197	-75.482139
+Erie County Public Library	Erie	Pennsylvania	16507	N	N	N	Y	N	42.13608138	-80.08688606
+Free Library of Philadelphia	Philadelphia	Pennsylvania	19130	N	N	N	Y	N	39.970236	-75.146911
+Carnegie Library of Pittsburgh	Pittsburgh	Pennsylvania	15213	N	N	N	Y	N	40.442856	-79.955849
+Rhode Island Library Network	Providence	Rhode Island	02903	N	N	N	Y	N	41.817905	-71.408107
+Charleston County Library	Charleston	South Carolina	29401	N	N	N	Y	N	32.788339	-79.930888
+Richland County Public Library	Columbia	South Carolina	29201	N	N	N	Y	N	34.003811	-81.036874
+Siouxland Libraries	Sioux Falls	South Dakota	57117	N	N	N	Y	N	43.54535	-96.731284
+Chattanooga-Hamilton County Public Library	Chattanooga	Tennessee	37402	N	N	N	Y	N	35.04686737	-85.31469727
+Clarksville-Montgomery County Public Library	Clarksville	Tennessee	37040	N	N	N	Y	N	36.52072906	-87.34055328
+Knox County Public Library	Knoxville	Tennessee	37902	N	N	N	Y	N	35.961128	-83.920876
+Memphis Public Library & Info. Center	Memphis	Tennessee	38111	N	N	N	Y	N	35.133754	-89.960345
+Nashville Public Library	Nashville-Davidson	Tennessee	37219	N	N	N	Y	N	36.16175461	-86.78160858
+Abilene Public Library	Abilene	Texas	79601	N	N	N	Y	N	32.45075	-99.735531
+Amarillo Public Library	Amarillo	Texas	79101	N	N	N	Y	N	35.207255	-101.833894
+Arlington Public Library	Arlington	Texas	76010	N	N	N	Y	N	32.735664	-97.106958
+University of Iowa	Iowa City	Iowa	52242	Y	Y	Y	N	N	41.66015	-91.538017
+Vanderbilt University	Nashville	Tennessee	37203	Y	Y	Y	N	N	36.145716	-86.800029
+Virgina Commonwealth University	Richmond	Virginia	23291	Y	N	Y	N	N	37.547698	-77.453608
+Virgina Polytechnic Institute and State University	Blacksburg	Virginia	24062	Y	Y	Y	N	N	37.229401	-80.414101
+Washington State University	Pullman	Washington	99164	Y	Y	Y	N	N	46.731078	-117.163667
+Washington University in St. Louis	Saint Louis	Missouri	63130	Y	Y	Y	N	N	38.662491	-90.323792
+Wayne State University	Detroit	Michigan	48202	Y	Y	Y	N	N	42.356125	-83.071983
+Yale University	New Haven	Connecticut	06520	Y	Y	Y	N	N	41.30983734	-72.92810822
+Yeshiva University	New York	New York	10033	Y	N	Y	N	N	40.85058711	-73.92935827
+York University	Toronto	Ontario		N	Y	Y	N	N	43.774454	-79.494061
+Birmingham-Jefferson Public Library	Birmingham	Alabama	35203	N	N	N	Y	N	33.520705	-86.80786
+Huntsville-Madison County Public Library	Huntsville	Alabama	35804	N	N	N	Y	N	34.72696	-86.585589
+Mobile Public Library	Mobile	Alabama	36602	N	N	N	Y	N	30.686535	-88.050313
+Alabama Public Library Service	Montgomery	Alabama	36130	N	N	N	Y	N	32.377205	-86.300434
+Anchorage Public Library	Anchorage	Alaska	99503	N	N	N	Y	N	61.1873335	-149.8787518
+Chandler Public Library	Chandler	Arizona	85244	N	N	N	Y	N	33.3027873	-111.8376092
+Glendale Public Library	Glendale	Arizona	85302	N	N	N	Y	N	33.578165	-112.187339
+Mesa Public Library	Mesa	Arizona	85201	N	N	N	Y	N	33.41728874	-111.8298159
+Peoria Public Library	Peoria	Arizona	85345	N	N	N	Y	N	33.577192	-112.240036
+Phoenix Public Library	Phoenix	Arizona	85004	N	N	N	Y	N	33.4629168	-112.0730782
+Scottsdale Public Library	Scottsdale	Arizona	85251	N	N	N	Y	N	33.493946	-111.922302
+Tempe Public Library	Tempe	Arizona	85282	N	N	N	Y	N	33.392384	-111.926506
+Pima County Public Library	Tucson	Arizona	85701	N	N	N	Y	N	32.205399	-110.943802
+Central Arkansas Library System	Little Rock	Arkansas	72201	N	N	N	Y	N	34.748038	-92.266728
+Anaheim Public Library	Anaheim	California	92805	N	N	N	Y	N	33.83235	-117.907039
+Kern County Library System	Bakersfield	California	93301	N	N	N	Y	N	35.383472	-119.007919
+Berkeley Public Library	Berkeley	California	94704	N	N	N	Y	N	37.867416	-122.259659
+Burbank Public Library	Burbank	California	91502	N	N	N	Y	N	34.183394	-118.306302
+Corona Public Library	Corona	California	92882	N	N	N	Y	N	33.86333	-117.593449
+Daly City Public Library	Daly City	California	94015	N	N	N	Y	N	37.662589	-122.470339
+Downey City Library	Downey	California	90241	N	N	N	Y	N	33.941341	-118.128845
+Escondido Public Library	Escondido	California	92025	N	N	N	Y	N	33.121023	-117.079274
+Solano County Library	Fairfield	California	94533	N	N	N	Y	N	38.251605	-122.047856
+Alameda County Library	Fremont	California	94538	N	N	N	Y	N	37.52681	-121.964905
+Fresno County Public Library	Fresno	California	93721	N	N	N	Y	N	36.734367	-119.782898
+Fullerton Public Library	Fullerton	California	92832	N	N	N	Y	N	33.8683	-117.930869
+Glendale Public Library	Glendale	California	91205	N	N	N	Y	N	34.144284	-118.253496
+Hayward Public Library	Hayward	California	94541	N	N	N	Y	N	37.670577	-122.083526
+Huntington Beach Public Library	Huntington Beach	California	92648	N	N	N	Y	N	33.701514	-118.004286
+Inglewood Public Library	Inglewood	California	90301	N	N	N	Y	N	33.96219019	-118.3555636
+Long Beach Public Library	Long Beach	California	90822	N	N	N	Y	N	33.76758	-118.1943527
+Los Angeles Public Library	Los Angeles	California	90071	N	N	N	Y	N	34.050324	-118.254381
+County of Los Angeles Public Library	Los Angeles	California	90241	N	N	N	Y	N	33.9389868	-118.1290761
+Stanislaus County Free Library	Modesto	California	95354	N	N	N	Y	N	37.644257	-120.970085
+Moreno Valley Public Library	Moreno Valley	California	92553	N	N	N	Y	N	33.917512	-117.218254
+Oakland Public Library	Oakland	California	94612	N	N	N	Y	N	37.810181	-122.269073
+Oceanside Public Library	Oceanside	California	92054	N	N	N	Y	N	33.1970099	-117.3804298
+Ontario City Library	Ontario	California	91764	N	N	N	Y	N	34.0659863	-117.6494547
+Orange Public Library	Orange	California	92866	N	N	N	Y	N	33.788326	-117.849346
+Oxnard Public Library	Oxnard	California	93030	N	N	N	Y	N	34.200976	-119.178717
+Palmdale City Library	Palmdale	California	93550	N	N	N	Y	N	34.5791879	-118.1162799
+South Pasadena Public Library	Pasadena	California	91030	N	N	N	Y	N	34.11372498	-118.1561244
+Pomona Public Library	Pomona	California	91769	N	N	N	Y	N	34.054645	-117.750024
+Rancho Cucamonga Public Library	Rancho Cucamonga	California	91730	N	N	N	Y	N	34.106754	-117.589676
+Richmond Public Library	Richmond	California	94804	N	N	N	Y	N	37.93554358	-122.3436461
+Riverside County Library System	Riverside	California	92509	N	N	N	Y	N	33.98	-117.35
+Riverside Public Library	Riverside	California		N	N	N	Y	N	33.99263	-117.37139
+Roseville County Public Library	Roseville	California	95678	N	N	N	Y	N	38.74629	-121.285001
+Sacramento Public Library	Sacramento	California	95814	N	N	N	Y	N	38.581864	-121.495231
+Salinas Public Library	Salinas	California	93901	N	N	N	Y	N	36.671727	-121.657074
+Santa Barbara County Public Library	San Bernadino	California	92415	N	N	N	Y	N	34.106573	-117.28541
+Ventura County Public Library	San Buenaventura	California	93003	N	N	N	Y	N	34.269472	-119.214694
+San Diego County Library	San Diego	California	92123	N	N	N	Y	N	32.799797	-117.137047
+San Diego Public Library	San Diego	California		N	N	N	Y	N	32.7211	-117.164307
+San Francisco Public Library	San Francisco	California	94102	N	N	N	Y	N	37.7788648	-122.4157819
+San Jose Public Library	San Jose	California	95112	N	N	N	Y	N	37.3358122	-121.8860269
+Orange County Public Libraries	Santa Ana	California	92705	N	N	N	Y	N	33.72306	-117.850007
+Santa Ana Public Library	Santa Ana	California		N	N	N	Y	N	33.7515348	-117.8721064
+Santa Clara City Library	Santa Clara	California	95051	N	N	N	Y	N	37.347729	-121.984909
+Mountain Valley Library System	Santa Rosa	California	95404	N	N	N	Y	N	38.43971238	-122.7091587
+Sonoma County Library	Santa Rosa	California		N	N	N	Y	N	38.452549	-122.703171
+Tulare County Library	Visalia	California	93291	N	N	N	Y	N	36.332026	-119.293592
+Aurora Public Library	Aurora	Colorado	80012	N	N	N	Y	N	39.70857225	-104.815966
+Pikes Peak Library District	Colorado Springs	Colorado	80917	N	N	N	Y	N	38.8350345	-104.8253905
+Denver Public Library	Denver	Colorado	80204	N	N	N	Y	N	39.738292	-104.987675
+Jefferson County Public Library	Lakewood	Colorado	80215	N	N	N	Y	N	39.747364	-105.111882
+Pueblo City County Library District	Pueblo	Colorado	81004	N	N	N	Y	N	38.259784	-104.621017
+Rangeview Library District	Thornton	Colorado	80602	N	N	N	Y	N	39.859111	-104.977712
+Westminster Public Library	Westminster	Colorado	80031	N	N	N	Y	N	39.90050636	-105.0415587
+Bridgeport Public Library	Bridgeport	Connecticut	06604	N	N	N	Y	N	41.178299	-73.196701
+Hartford Public Library	Hartford	Connecticut	06103	N	N	N	Y	N	41.762131	-72.67428
+New Haven Free Public Library	New Haven	Connecticut	06510	N	N	N	Y	N	41.307068	-72.924644
+The Ferguson Library	Stamford	Connecticut	06904	N	N	N	Y	N	41.053268	-73.538994
+Centennial Library	Waterbury	Connecticut	06708	N	N	N	Y	N	41.54746726	-73.06602024
+Washington D.C. Public Library	Washington	District of Columbia	20011	N	N	N	Y	N	38.94355392	-77.03482056
+Clearwater Public Library	Clearwater	Florida	33755	N	N	N	Y	N	27.978279	-82.780922
+Pinellas Public Library Cooperative	Clearwater	Florida	33755	N	N	N	Y	N	27.966331	-82.781742
+Broward County Library Division	Fort Lauderdale	Florida	33301	N	N	N	Y	N	26.121044	-80.142919
+Alachua County Library District	Gainesville	Florida	32601	N	N	N	Y	N	29.651914	-82.321511
+Hileah Public Libraries	Hialeah	Florida	33012	N	N	N	Y	N	25.866595	-80.286692
+Jacksonville Public Library	Jacksonville	Florida	32202	N	N	N	Y	N	30.328445	-81.651886
+Miami-Dade Public Library System	Miami	Florida	33130	N	N	N	Y	N	25.774092	-80.195608
+Orange County Library System	Orlando	Florida	32801	N	N	N	Y	N	28.54226	-81.377284
+"Broward County Library ""South"" Regional"	Pembroke Pines	Florida	33024	N	N	N	Y	N	26.009275	-80.234931
+St. Petersburgh Public Library	St. Petersburg	Florida	33713	N	N	N	Y	N	27.781041	-82.684208
+Leroy Collins Leon County Public Library	Tallahassee	Florida	32301	N	N	N	Y	N	30.4422907	-84.2836433
+Hillsborough County Public Library Coop.	Tampa	Florida	33602	N	N	N	Y	N	27.950842	-82.461518
+Athens-Clarke County Library	Athens-Clarke County	Georgia	30606	N	N	N	Y	N	33.945336	-83.403568
+Atlanta-Fulllerton County Public Library Syst.	Atlanta	Georgia	30303	N	N	N	Y	N	33.740833	-84.420541
+East Central Georgia Regional Library	Augusta-Richmond County	Georgia	30901	N	N	N	Y	N	33.473959	-81.968952
+Louisiana State University and Agricultural & Mechanical College 	Baton Rouge	Louisiana	70803	Y	Y	Y	N	N	30.414416	-91.180086
+Massachusetts Institute of Technology	Cambridge	Massachusetts	02139	Y	Y	Y	N	N	42.359185	-71.093541
+McGill University	Montreal	Quebec	H3A0C9	N	Y	Y	N	N	45.505001	-73.575996
+McMaster University	Hamilton	Ontario		N	Y	Y	N	N	43.262231	-79.916155
+Michigan State University	East Lansing	Michigan	48824	Y	Y	Y	N	N	42.730926	-84.483366
+Mississippi State University	Mississippi State	Mississippi	39762	Y	N	Y	N	N	33.457245	-88.784111
+Montana State University	Bozeman	Montana	59717	Y	N	Y	N	N	45.666604	-111.048573
+National Agricultural Library	Beltsville	Maryland	20705	N	Y	Y	N	N	39.022963	-76.92155
+National Archives and Records Administration	Washington	District of Columbia	20740	N	Y	Y	N	N	38.998325	-76.926406
+National Library of Medicine	Bethesda	Maryland	20894	N	Y	Y	N	N	38.988409	-77.096475
+New York Public Library	New York	New York	10199	N	Y	Y	Y	N	40.765064	-73.986534
+New York State Library	Albany	New York	12230	N	Y	Y	N	N	42.6512	-73.755459
+New York University	New York	New York	10012	Y	Y	Y	N	N	40.725285	-73.997726
+North Carolina State University at Raleigh	Raleigh	North Carolina	27695	Y	Y	Y	N	N	35.800549	-78.712601
+North Dakota State University-Main Campus	Fargo	North Dakota	58108	Y	N	Y	N	N	46.890561	-96.801767
+Northwestern University	Evanston	Illinois	60208	Y	Y	Y	N	N	42.053341	-87.673363
+Ohio State University-Main Campus	Columbus	Ohio	43210	Y	Y	Y	N	N	39.999085	-83.015678
+Ohio University	Athens	Ohio	45701	N	Y	Y	N	N	39.274457	-82.156889
+Oklahoma State University	Stillwater	Oklahoma	74078	N	Y	Y	N	N	36.113235	-97.056931
+Oregon State University	Corvallis	Oregon	97331	Y	N	Y	N	N	44.564782	-123.276996
+Pennsylvania State University-Main Campus	University Park	Pennsylvania	16802	Y	Y	Y	N	N	40.797879	-77.866019
+Princeton University	Princeton	New Jersey	08544	Y	Y	Y	N	N	40.349855	-74.659119
+Purdue University-Main Campus	West Lafayette	Indiana	47907	Y	Y	Y	N	N	40.368893	-86.877434
+Queen's University Library	Kingston	Ontario		N	Y	Y	N	N	44.226002	-76.486
+Rensselaer Polytechnic Institute	Troy	New York	12180	Y	N	Y	N	N	42.719872	-73.659073
+Rice University	Houston	Texas	77005	Y	Y	Y	N	N	29.71844	-95.422424
+Rockefeller University	New York	New York	10065	Y	N	Y	N	N	40.762679	-73.95571
+Rutgers University-New Brunswick	New Brunswick	New Jersey	08901	Y	Y	Y	N	N	40.49477	-74.443809
+Smithsonian Institution	Washington	District of Columbia	20560	N	Y	Y	N	N	38.897331	-77.042252
+Southern Illinois University Carbondale	Carbondale	Illinois	62901	N	Y	Y	N	N	37.726219	-89.222916
+Stanford University	Stanford	California	94305	Y	N	Y	N	N	37.43136978	-122.1689224
+Stony Brook University	Stony Brook	New York	11794	Y	Y	Y	N	N	40.903763	-73.127113
+SUNY at Albany	Albany	New York	12222	Y	Y	Y	N	N	42.6512	-73.755459
+Temple University	Philadelphia	Pennsylvania	19122	N	Y	Y	N	N	39.982099	-75.154861
+Texas A&M University	College Station	Texas	77843	Y	Y	Y	N	N	30.616686	-96.339036
+Texas Tech University	Lubbock	Texas	79409	N	Y	Y	N	N	33.587036	-101.852356
+Tufts University	Medford	Massachusetts	02155	Y	N	Y	N	N	42.41985	-71.108724
+Tulane University of Louisiana	New Orleans	Louisiana	70118	Y	Y	Y	N	N	29.93982	-90.122196
+University at Buffalo	Buffalo	New York	14260	Y	Y	Y	N	N	42.999779	-78.784866
+University of Alabama at Birmingham	Birmingham	Alabama	35294	Y	Y	Y	N	N	33.497992	-86.80711
+University of Alabama in Huntsville	Huntsville	Alabama	35899	Y	Y	Y	N	N	34.728184	-86.585281
+University of Alberta	Edmonton	Alberta	T6G 2J4	N	Y	Y	N	N	53.51677	-113.52739
+University of Arizona	Tucson	Arizona	85721	Y	Y	Y	N	N	32.195816	-110.891716
+University of Arkansas	Fayetteville	Arkansas	72701	Y	N	Y	N	N	36.065475	-94.15567
+University of British Columbia	Vancouver	British Columbia		N	Y	Y	N	N	49.264049	-123.243483
+University of Calgary	Calgary	Alberta		N	Y	Y	N	N	51.07749	-114.128487
+University of California-Berkeley	Berkeley	California	94720	Y	Y	Y	N	N	37.8757515	-122.2434082
+University of California-Davis	Davis	California	95616	Y	Y	Y	N	N	38.554642	-121.745003
+University of California-Irvine	Irvine	California	92623	Y	Y	Y	N	N	33.690708	-117.812759
+University of California-Los Angeles	Los Angeles	California	90095	Y	Y	Y	N	N	34.070251	-118.447594
+University of California-Riverside	Riverside	California	92521	Y	Y	Y	N	N	33.972726	-117.32714
+University of California-San Diego	La Jolla	California	92093	Y	Y	Y	N	N	32.881065	-117.237415
+University of California-Santa Barbara	Santa Barbara	California	93106	Y	Y	Y	N	N	34.432999	-119.835388
+University of California-Santa Cruz	Santa Cruz	California	95064	Y	N	Y	N	N	36.996452	-122.060284
+University of Central Florida	Orlando	Florida	32816	Y	N	Y	N	N	28.604675	-81.204826
+University of Chicago	Chicago	Illinois	60637	Y	Y	Y	N	N	41.792257	-87.599976
+University of Cincinnati-Main Campus	Cincinnati	Ohio	45221	Y	Y	Y	N	N	39.132506	-84.518829
+University of Colorado at Boulder	Boulder	Colorado	80309	Y	Y	Y	N	N	40.007401	-105.266327
+University of Connecticut	Storrs	Connecticut	06269	Y	Y	Y	N	N	41.811211	-72.247177
+University of Delaware	Newark	Delaware	19717	Y	Y	Y	N	N	39.71442	-75.739738
+University of Florida	Gainesville	Florida	32611	Y	Y	Y	N	N	29.645405	-82.348671
+University of Georgia	Athens	Georgia	30602	Y	Y	Y	N	N	33.944112	-83.423451
+University of Guelph	Guelph	Ontario		N	Y	Y	N	N	43.531518	-80.227732
+University of Hawaii at Manoa	Honolulu	Hawaii	96822	Y	Y	Y	N	N	21.300537	-157.816206
+University of Houston	Houston	Texas	77004	Y	Y	Y	N	N	29.719477	-95.340149
+University of Illinois at Chicago	Chicago	Illinois	60607	Y	Y	Y	N	N	41.865601	-87.645103
+University of Illinois at Urbana-Champaign	Champaign	Illinois	61801	Y	Y	Y	N	N	40.111023	-88.19706
+University of Kansas	Lawrence	Kansas	66045	Y	Y	Y	N	N	38.957201	-95.244865
+University of Kentucky	Lexington	Kentucky	40506	Y	Y	Y	N	N	38.031826	-84.506584
+University of Louisville	Louisville	Kentucky	40292	Y	Y	Y	N	N	38.232162	-85.671722
+University of Manitoba	Winnipeg	Manitoba		N	Y	Y	N	N	49.815076	-97.155926
+University of Maryland-College Park	College Park	Maryland	20742	Y	Y	Y	N	N	38.980666	-76.936919
+University of Massachusetts Amherst	Amherst	Massachusetts	01003	Y	Y	Y	N	N	42.403877	-72.529938
+University of Miami	Coral Gables	Florida	33124	Y	Y	Y	N	N	25.721135	-80.279559
+University of Michigan-Ann Arbor	Ann Arbor	Michigan	48109	Y	Y	Y	N	N	42.2763	-83.7382
+University of Minnesota-Twin Cities	Minneapolis	Minnesota	55455	Y	Y	Y	N	N	44.976073	-93.230859
+University of Missouri-Columbia	Columbia	Missouri	65201	Y	Y	Y	N	N	38.944443	-92.326399
+University of Nebraska-Lincoln	Lincoln	Nebraska	68588	Y	Y	Y	N	N	40.818176	-96.7026
+University of New Mexico-Main Campus	Albuquerque	New Mexico	87131	Y	Y	Y	N	N	35.084822	-106.620708
+University of North Carolina at Chapel Hill	Chapel Hill	North Carolina	27515	Y	Y	Y	N	N	35.936916	-79.039688
+University of Notre Dame	Notre Dame	Indiana	46556	Y	Y	Y	N	N	41.695599	-86.238647
+University of Oklahoma-Norman Campus	Norman	Oklahoma	73019	Y	Y	Y	N	N	35.19657	-97.442744
+University of Oregon	Eugene	Oregon	97403	Y	Y	Y	N	N	44.036083	-123.052429
+University of Ottawa	Ottawa	Ontario	K1N 6N5	N	Y	Y	N	N		
+University of Pennsylvania	Philadelphia	Pennsylvania	19104	Y	Y	Y	N	N	39.95269	-75.194067
+University of Pittsburgh-Pittsburgh Campus	Pittsburgh	Pennsylvania	15260	Y	Y	Y	N	N	40.443118	-79.955917
+University of Rochester	Rochester	New York	14627	Y	Y	Y	N	N	43.128449	-77.632049
+University of Saskatchewan	Saskatoon	Saskatchewan		N	Y	Y	N	N	52.131001	-106.614998
+University of South Carolina-Columbia	Columbia	South Carolina	29208	Y	Y	Y	N	N	33.996305	-81.027157
+University of South Florida-Tampa	Tampa	Florida	33620	Y	N	Y	N	N	28.060459	-82.411484
+University of Southern California	Los Angeles	California	90089	Y	Y	Y	N	N	34.020128	-118.283754
+"University of Tennessee, Knoxville"	Knoxville	Tennessee	37996	Y	Y	Y	N	N	35.960495	-83.920914
+University of Texas at Austin	Austin	Texas	78712	Y	Y	Y	N	N	30.2847	-97.741379
+University of Toronto	Toronto	Ontario		N	Y	Y	N	N	43.66417	-79.398576
+University of Utah	Salt Lake City	Utah	84112	Y	Y	Y	N	N	40.761992	-111.847006
+University of Virginia-Main Campus	Charlottesville	Virginia	22904	Y	Y	Y	N	N	38.035552	-78.503451
+University of Washington-Seattle Campus	Seattle	Washington	98195	Y	Y	Y	N	N	47.653679	-122.29911
+University of Waterloo	Waterloo	Ontario		N	Y	Y	N	N	43.46870358	-80.5391933
+University of Western Ontario	London	Ontario		N	Y	Y	N	N	42.996234	-81.254801
+University of Wisconsin-Madison	Madison	Wisconsin	53706	Y	Y	Y	N	N	43.07	-89.4
+Beaumont Public Library System	Beaumont	Texas	77701	N	N	N	Y	N	30.08615	-94.101584
+Brownsville Public Library	Brownsville	Texas	78520	N	N	N	Y	N	25.94051	-97.509521
+Carrollton Public Library	Carrollton	Texas	75006	N	N	N	Y	N	33.028362	-96.876427
+Corpus Christi Public Library	Corpus Christi	Texas	78401	N	N	N	Y	N	27.792755	-97.399137
+Dallas Public Library	Dallas	Texas	75201	N	N	N	Y	N	32.786999	-96.798347
+Denton Public Library	Denton	Texas	76201	N	N	N	Y	N	33.2202	-97.1465
+El Paso Public Library	El Paso	Texas	79901	N	N	N	Y	N	31.760482	-106.490058
+River Oaks Public Library	Fort Worth	Texas	76114	N	N	N	Y	N	32.77875	-97.393768
+Nicholson Memorial Library	Garland	Texas	75040	N	N	N	Y	N	32.91454	-96.638109
+Grand Prairie Public Library System	Grand Prairie	Texas	75051	N	N	N	Y	N	32.73788519	-97.01755263
+Houston Public Library	Houston	Texas	77002	N	N	N	Y	N	29.759489	-95.369381
+Irving Public Library	Irving	Texas	75060	N	N	N	Y	N	32.813744	-96.954408
+Kileen Public Library	Killeen	Texas	76541	N	N	N	Y	N	31.1238736	-97.7278369
+Laredo Public Library	Laredo	Texas	78041	N	N	N	Y	N	27.548878	-99.491165
+Lubbock Public Library	Lubbock	Texas	79401	N	N	N	Y	N	33.587952	-101.848994
+McAllen Public Library	McAllen	Texas	78504	N	N	N	Y	N	26.24078237	-98.23944703
+Mesquite Public Library System	Mesquite	Texas	75149	N	N	N	Y	N	32.7748959	-96.60175083
+Pasadena Public Library	Pasadena	Texas	77506	N	N	N	Y	N	29.69282895	-95.19721314
+Plano Public Library System	Plano	Texas	75075	N	N	N	Y	N	33.015751	-96.737473
+San Antonio Public Library	San Antonio	Texas	78205	N	N	N	Y	N	29.425426	-98.489349
+Waco-McLennan County Library	Waco	Texas	76710	N	N	N	Y	N	31.546626	-97.143585
+Salt Lake City Public Library	Salt Lake City	Utah	84111	N	N	N	Y	N	40.753979	-111.881721
+Alexandria Library	Alexandria	Virginia	22304	N	N	N	Y	N	38.812397	-77.117651
+Arlington Public Library	Arlington CDP	Virginia	22201	N	N	N	Y	N	38.8904878	-77.0852954
+Chesapeake Public Library System	Chesapeake	Virginia	23322	N	N	N	Y	N	36.714405	-76.246686
+Hampton Public Library	Hampton	Virginia	23669	N	N	N	Y	N	37.020734	-76.351521
+"Newport News Public Library Syste,"	Newport News	Virginia	23606	N	N	N	Y	N	37.086483	-76.474122
+Norfolk Public Library	Norfolk	Virginia	23502	N	N	N	Y	N	36.86108	-76.230082
+Portsmouth Public Library	Portsmouth	Virginia	23703	N	N	N	Y	N	36.85243988	-76.37846375
+Richmond Public Library	Richmond	Virginia	23219	N	N	N	Y	N	37.5430244	-77.442323
+Fort Vancouver Regional Library System	Vancouver	Washington	98663	N	N	N	Y	N	45.629978	-122.661169
+Brown County Library	Green Bay	Wisconsin	54301	N	N	N	Y	N	44.514763	-88.01015
+Madison Public Library	Madison	Wisconsin	53703	N	N	N	Y	N	43.073932	-89.387354
+Milwaukee Public Library	Milwaukee	Wisconsin	53233	N	N	N	Y	N	43.039524	-87.922371
+British Columbia QPT Public Library	Vancouver	British Columbia		N	N	N	Y	Y	49.280159	-123.1147537
+Burnaby Public Library	Burnaby	British Columbia		N	N	N	Y	Y	49.228621	-123.006322
+Coquitlam Public Library	Coquitlam	British Columbia		N	N	N	Y	Y	49.2527084	-122.846344
+Cariboo Regional District Library	Williams Lake	British Columbia		N	N	N	N	Y	52.1313095	-122.1421585
+Chetwynd Public Library	Chetwynd	British Columbia		N	N	N	N	Y	55.6947403	-121.6131516
+Fort Nelson Public Library	Fort Nelson	British Columbia		N	N	N	N	Y	58.80444717	-122.6972351
+Fort Saint John Public Library	Fort Saint John	British Columbia		N	N	N	N	Y	56.2463264	-120.8479691
+Grand Forks and District Public Library	Grand Forks	British Columbia		N	N	N	N	Y		
+Halifax Regional Library	Dartmouth	Nova Scotia		N	N	N	N	Y	44.6682816	-63.5222015
+Hudson's Hope Public Library	Hudson's Hope	British Columbia		N	N	N	N	Y		
+Lillooet Public Library	Lillooet	British Columbia		N	N	N	N	Y	50.6864357	-121.9360046
+New Westminster Public Library	New Westminster	British Columbia		N	N	N	N	Y	49.211647	-122.922914
+Smithers Public Library - North Coast Library Federation	Smithers	British Columbia		N	N	N	N	Y		
+North Vancouver City Library	North Vancouver	British Columbia		N	N	N	Y	Y	49.3209343	-123.074646
+North Vancouver District Public Library	North Vancouver	British Columbia		N	N	N	Y	Y	49.3366432	-123.0387421
+Okanagan Regional Library	Kelowna	British Columbia		N	N	N	Y	Y	49.8611259	-119.4682922
+Ottawa Public Library	Ottawa	Ontario		N	N	N	Y	Y	45.43	-75.706001
+Pickering Public Library	Pickering	Ontario		N	N	N	N	Y	43.8387413	-79.0827332
+Pouce Coupe Public Library	Pouce Coupe	British Columbia		N	N	N	N	Y	55.7187233	-120.1374435
+Power River Public Library	Powell River	British Columbia		N	N	N	N	Y	49.8355293	-124.5242386
+Richmond Public Library	Richmond	British Columbia		N	N	N	Y	Y	49.1629333	-123.1428146
+Salt Spring Island Public Library	Salt Spring Island	British Columbia		N	N	N	N	Y	48.8525162	-123.5017014
+Sechelt Public Library	Sechelt	British Columbia		N	N	N	N	Y	49.4728813	-123.7589417
+Squamish Public Library	Squamish	British Columbia	V8B 0A7	N	N	N	N	Y	49.6974716	-123.1560974
+Strait Area Campus Library	Port Hawkesbury	Nova Scotia		N	N	N	N	Y	45.619251	-61.358949
+Surrey Libraries Administration	Surrey	British Columbia	V3T 4B8	N	N	N	Y	Y	49.191002	-122.810997
+Thompson Nicola Regional District Lib.  Syst.	Kamloops	British Columbia		N	N	N	N	Y	50.6756401	-120.3302536
+Toronto Public Library	Toronto	Ontario		N	N	N	Y	Y	43.671605	-79.3871
+Tumbler Ridge Public Library	Tumbler Ridge	British Columbia		N	N	N	N	Y		
+Vancouver Public Library	Vancouver	British Columbia		N	N	N	Y	Y	49.280202	-123.114774
+Arizona State University	Tempe	Arizona	85287	Y	Y	Y	N	N	33.42113	-111.928936
+Auburn University	Auburn	Alabama	36849	N	Y	Y	N	N	32.603085	-85.482742
+Bibliotheque de l'Universite Laval	Laval	Quebec		N	Y	Y	N	N	46.7802315	-71.2755356
+Bibliotheque de l'Universite de Montreal	Montreal	Quebec		N	Y	Y	N	N	45.497002	-73.561996
+Boston College	Boston	Massachusetts	02467	N	Y	Y	N	N	42.336003	-71.169159
+Boston Public Library	Boston	Massachusetts	02205	N	Y	Y	Y	N	42.358635	-71.056699
+Boston University	Boston	Massachusetts	02215	Y	Y	Y	N	N	42.358635	-71.056699
+Brandeis University	Waltham	Massachusetts	02454	Y	N	Y	N	N	42.3764	-71.239464
+Brigham Young University	Provo	Utah	84602	N	Y	Y	N	N	40.25096	-111.651377
+Brown University	Providence	Rhode Island	02912	Y	Y	Y	N	N	41.823879	-71.40097
+California Institute of Technology	Pasadena	California	91125	Y	N	Y	N	N	34.136883	-118.12458
+Canada Institute for Scientific and Technical Information (CISTI)	Ottawa	Ontario		N	Y	Y	N	N	45.419754	-75.706995
+Carnegie Mellon University	Pittsburgh	Pennsylvania	19130	Y	N	Y	N	N	39.967325	-75.172919
+Case Western Reserve University	Cleveland	Ohio	44106	Y	Y	Y	N	N	41.507311	-81.609515
+Center for Research Libraries	Chicago	Illinois	60637	N	Y	Y	N	N	41.784365	-87.593342
+Colorado State University	Fort Collins	Colorado	80523	Y	Y	Y	N	N	40.58147049	-105.0762634
+Columbia University	New York	New York	10027	Y	Y	Y	N	N	40.806236	-73.963256
+Cornell University	Ithaca	New York	14853	Y	Y	Y	N	N	42.446671	-76.495735
+CUNY Graduate Schook and University Center	New York	New York	10016	Y	N	Y	N	N	40.759399	-73.990097
+Dartmouth College	Hanover	New Hampshire	03755	Y	Y	Y	N	N	43.72344208	-72.19642639
+Duke University	Durham	North Carolina	27708	Y	Y	Y	N	N	35.999401	-78.939903
+Emory University	Atlanta	Georgia	30322	Y	Y	Y	N	N	33.790578	-84.323024
+Florida State University	Tallahassee	Florida	32306	Y	Y	Y	N	N	30.443028	-84.295028
+George Washington University	Washington	District of Columbia	20052	Y	Y	Y	N	N	38.89338	-77.048899
+Georgetown University	Washington	District of Columbia	20057	Y	Y	Y	N	N	38.90660266	-77.07214712
+Georgia Institute of Technology-Main Campus	Atlanta	Georgia	30332	Y	Y	Y	N	N	33.775684	-84.399002
+Georgia State University	Atlanta	Georgia	30303	Y	N	Y	N	N	33.7527	-84.3866
+Harvard University	Cambridge	Massachusetts	02139	Y	Y	Y	N	N	42.375081	-71.150016
+Howard University	Washington	District of Columbia	20059	N	Y	Y	N	N	38.9221	-77.02002
+Indiana University-Bloomington	Bloomington	Indiana	47405	Y	Y	Y	N	N	39.172161	-86.52552
+Iowa State University	Ames	Iowa	50011	Y	Y	Y	N	N	42.028091	-93.648826
+Johns Hopkins University	Baltimore	Maryland	21218	Y	Y	Y	N	N	39.3277	-76.605779
+Kent State University	Kent	Ohio	44240	N	Y	Y	N	N	41.14574	-81.352299
+Library and Archives Canada	Ottawa	Ontario		N	Y	Y	N	N	45.419756	-75.706992
+Library of Congress	Washington	District of Columbia	20540	N	Y	Y	N	N	38.8868103	-77.00470734
+Syracuse University	Syracuse	New York	13244	N	Y	Y	N	N	43.040363	-76.134022
+Virginia Beach Public Library System	Virginia Beach	Virginia	23452	N	N	N	Y	N	36.842691	-76.11585
+Seattle Public Library	Seattle	Washington	98104	N	N	N	Y	N	47.602081	-122.32978
+Spokane County Library System	Spokane	Washington	99212	N	N	N	Y	N	47.696691	-117.282646
+Spokane Public Library	Spokane	Washington		N	N	N	Y	N	47.659075	-117.42512
+Pierce County Library System	Tacoma	Washington	98446	N	N	N	Y	N	47.155002	-122.388332
+Tacoma Public Library	Tacoma	Washington		N	N	N	Y	N	47.252624	-122.444599
