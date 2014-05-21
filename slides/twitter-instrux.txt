@@ -1,0 +1,50 @@
+# Twitter Python library install instructions
+
+We'll use the twitter library.  Unfortunately, the library is not
+installed in the Anaconda python distribution by default.  If you 
+try to import it, this is what you will see:
+
+```
+$ python
+Python 2.7.2 (default, Oct 11 2012, 20:14:37) 
+[GCC 4.2.1 Compatible Apple Clang 4.0 (tags/Apple/clang-418.0.60)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import twitter
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named twitter
+>>> 
+```
+
+The good news: the installation process is surprisingly simple when
+you use the Anaconda python distribution.
+
+**OSX:** 
+Open a terminal window 
+
+**Windows**
+Open the "Anaconda Command Prompt"
+
+Now type the following:
+```
+$ pip install twitter
+```
+
+You should *hopefully* see the following output:
+```
+Downloading/unpacking twitter
+  Downloading twitter-1.14.3-py2.py3-none-any.whl (50kB): 50kB downloaded
+Installing collected packages: twitter
+Successfully installed twitter
+Cleaning up...
+```
+
+Congrats! You've installed the twitter python library! Now when you try 
+importing the twitter library in python you should't see an error.
+```
+Python 2.7.6 |Anaconda 1.9.2 (x86_64)| (default, Jan 10 2014, 11:23:15) 
+[GCC 4.0.1 (Apple Inc. build 5493)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import twitter
+>>> 
+```
