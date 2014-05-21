@@ -4,8 +4,9 @@ Because everyone is so excited about web scrapting, we've put together a collect
 
 ## Conceptual Introduction to Scraping
 
-[*I Don’t Need No Stinking API: Web Scraping For Fun and Profit*](http://blog.hartleybrody.com/web-scraping/) - A blog post by Hartley Brody. This is a  high level discussion, no code, more of a conceptual introduction. This guy has also written a book, I haven't read it so I can't speak to the quality.
+*I Don’t Need No Stinking API: Web Scraping For Fun and Profit* - A blog post by Hartley Brody. This is a  high level discussion, no code, more of a conceptual introduction. This guy has also written a book, I haven't read it so I can't speak to the quality.
 
+* http://blog.hartleybrody.com/web-scraping/
 
 ## Web Scraping with Python
 
