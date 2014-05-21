@@ -44,25 +44,32 @@ Here is another post *Easy Web Scraping with Python* by Miguel Grinberg
 
 # Advanced web scraping
 
-This is a fairly terse 
+This is a fairly terse introduction to python web scraping with the lxml and Requests libraries:
+
 * http://docs.python-guide.org/en/latest/scenarios/scrape/
+
+A comprehnsive overview of web scraping with code (using lxml and Requests) and conceptual stuff too:
 
 * http://jakeaustwick.me/python-web-scraping-resource/
 
-* https://news.ycombinator.com/item?id=7375575
+Using Lxml instead of beautiful soup for parsing HTML:
 
-Lxml instead of beautiful soup
 * http://www.ianbicking.org/blog/2008/12/lxml-an-underappreciated-web-scraping-library.html
 
 
 
 
-# Services
+# Web Scraping as a Services
 
-https://import.io/
-https://news.ycombinator.com/item?id=7582858
+Import.io is a new (for-pay) service (here is some [web discussion about it](https://news.ycombinator.com/item?id=7582858))
 
-http://tubes.io/
-https://news.ycombinator.com/item?id=6076457
+* https://import.io/
 
-http://scrapinghub.com/
+Another service called Tubes.io (and some [web discussion](https://news.ycombinator.com/item?id=6076457
+)):
+
+* http://tubes.io/
+
+Scrapinghub is a new service for running recurring web scrapes. It is run by the folks who created the [scrapy](http://scrapy.org/) python library for writing web spiders:
+
+* http://scrapinghub.com/
