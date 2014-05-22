@@ -1,0 +1,465 @@
+API is "Application Programming Interface".  It's a fancy-pants CS
+phrase for "The language I use to talk to some other entity in the
+computational universe."
+
+Like most languages, any particular API has
+   * Nouns: the (abstract) physical things you can manipulate
+   * Verbs: the actions possible on the nouns
+
+Unlike most languages that you probably know, (but like Python and
+SQL), APIs are "formal" languages rather than "natural" languages.
+Formal languages (usually) do not tolerate ambiguity, which you are
+probably discovering is both good and bad.
+
+--------------------------------
+You've already seen "screen scraping"---reading rendered (visible) web
+sites computationally, and extracting information from them. But,
+that's a really inefficient mechanism.  It is like having someone send
+you a letter by dictating it over the phone to a typist, and having
+them type it out.  In fact, it's even worse, because a lot of
+information gets thrown away---e.g. all the text formatting of the
+original document (italics, boldface, pictures, etc.) is lost in the
+dictation.
+
+An API instead allows you to get at the underlying data from which the
+web site (or other service) is rendered.  But, in exchange for this
+expressive power, we have to deal with a little bit more complication.
+
+--------------------------------
+Twitter does not allow anonymous uses of its API; you must be
+authenticated.  Authentication is the fancy-pants CS term for the
+question: 
+
+   "Who are you?"
+
+For twitter apps, there are two forms of this question:
+
+   "What application is making this request?"
+   "On which user's behalf are these requests made?"
+
+The "user" part is optional, but we'll use it anyway.  
+
+Authentication relies on something you know (e.g. a password),
+something you have (e.g. an M-Token), or something you are
+(e.g. biometrics.)  Twitter relies on something you know to represent
+both of those things: two long sequences of random characters.
+
+One pair is the "Consumer key and secret".  The "key" identifies your
+app, the "secret" is the thing your application knows.  You get this
+pair when you register your app with Twitter.  I've created a sample
+app already for us to share, and will leave it up for a few weeks
+after the boot camp ends.  After that you can create your own and just
+substitute the key/secret pair.  The web site to do this is:
+
+    dev.twitter.com/apps
+
+You need to be signed in to twitter to access this page.  Each
+application is "owned" by some Twitter user, but can be "used" by any
+Twitter user.  
+
+That's where the second pair of "secrets" comes in.  They are the
+"Access token and secret" The "token" identifies the user running the
+app, and the secret is the thing that only that user knows.  Because
+this is per-user, each user will have a different token/secret pair.  
+
+One way to get them this is through something called the "OAuth
+Dance".  We just have a piece of code that does this for us, included
+in your resources bundle, called:
+
+    oauthDance.py
+
+It exports a single function called "login()" that you can just call
+directly.
+
+The very first time you do this, you will go through a few steps to
+authenticate the app to your personal twitter account---you must be
+logged into Twitter under your account with your default browser
+first!  The app sends a message to twitter asking to be connected to
+your account.  You authorize the app, and get back a PIN code to enter
+so that the app knows "it's you."  Once you do that, the app remembers
+your per-user access token and secret (stored in a file called
+out/twitter.oauth) and will re-use them again.  You can look at
+oauth_dance.py to see how this works, but you really don't need to.
+
+All of our Twitter scripts will start the same way: we will obtain a
+"twitter object" by logging in to twittter.  
+
+**** loggingIn.py
+---------------------------------------
+import twitter
+import oauthDance
+
+t = oauthDance.login()
+
+print "Success!"
+---------------------------------------
+
+The object "t" provides the methods that do the work of querying
+twitter for us.
+
+There are four main "nouns" in the Twitter API.  The first two are
+probably pretty obvious:
+
+   * User       someone who uses twitter
+   * Tweet      the utterances that twitter users produce
+ 
+There are two more that might not be so obvious, but are important
+
+   * Entities   the "special" parts of a tweet.  These include
+                #hashtags, @mentions, URLs, and uploaded media
+                (pictures, video, etc.)
+   * Places	a flexible way of naming phyisical spaces in the
+                world.
+
+
+Each of these "nouns" is really a *composite*---they consist of a
+bunch of other parts, which may also have parts, and so on.  For
+example, a tweet might contian:
+
+    * Created_At      When the tweet was issued
+    * Entities        A list of hashtags, mentions, etc. in this tweet
+    * Favorite_count  The number of times the tweet has been
+                      "favorited"
+    * Retweeded       Whether it has been retweeted by the current
+                      user
+
+These contained parts are sometimes called "fields".
+
+Almost all fields can be empty; fields that can legally be empty are
+called "nullable fields", and if they are empty, they exist, but have
+the value "NULL".  NULL is the special value in CS that means "no
+value at all."  It's the value that has no value!
+
+Some fields change based on who is doing the asking.  For example,
+suppose that Jerry tweeted "ICOS is great!" and you retweeted it, but
+I didn't.  When you look at that tweet you see that it's "retweeted"
+value is "true".  When I look, I see that it is "false".  Such fields
+are called "Perspectival"---they depend on *perspective*.
+
+(Note: it turns out to be a little complicated to decide who is doing
+the "asking", but we'll get to that later.)
+
+See this for a full-blown example of what this can look like:
+
+https://dev.twitter.com/docs/platform-objects/users
+
+-----------------------
+
+The "verbs" that we'll be using to begin with are part of something
+called the "REST API".  API, we already know.  REST is an
+'alomst-acronym' that stands for:
+
+   "REpresentational State Transfer"
+
+The idea behind a RESTful systems is that you have 
+
+    * a "service" that:
+	* holds "state"---"state" is another word for
+	  information or, collquially, "stuff"; and 
+	* has one or more "clients" that interact with it.
+
+    * A client makes a "request" that: 
+        * (optionally) "transforms" state in some way, 
+        * induces a "response" that is sent back to the client 
+
+
+These requests are the "verbs". 
+
+When you log in to twitter, your web browser is the client; it
+requests the last so many tweets on your home timeline and displays
+them.  This is a request that does not transform Twitter's state.
+
+But, when you post a tweet, that's just another request that *does*
+transform Twitter's state; namely, it adds a new tweet to its
+database.
+
+Every client request receives a response; at a minimum, the response
+is "the request was successful."
+
+Not every request modifies state.  For the most part, our applications
+will not modify state; we are only extracing information from twitter,
+we are not tweeting, etc.
+
+------------------------
+
+We'll start by getting just one single tweet from one specific user.
+The user in question is:
+
+     https://twitter.com/UMBigData
+
+Open that page in a tab.  There are also two developer pages that
+describe what we need.  Open these two pages in their own tabs:
+
+    https://dev.twitter.com/docs/platform-objects   (the nouns)
+
+    https://dev.twitter.com/docs/api/1.1   (the verbs)
+
+The verb we will use to get the tweet is "statuses/user_timeline".
+Click on that.  Notice that it takes potentially many arguments: we
+will use two: screen_name (the name of the account we are reading
+from) and count (the number of tweets we want).
+
+The file oneTweet.py shows how this works.  We convert the "Verb" in
+the field guide to method notation; each slash is a new sub-method.
+So, "statuses/user_timeline" becomes:
+
+   t.statuses.user_timeline(...)
+
+And, the verb "foo/bar/baz" would be expressed as:
+
+   t.foo.bar.baz(...)
+
+To pass the arguments, we provide the names of arguments, and their
+values.  So, since we want one tweet from the screen name "UMBigData",
+we say:
+
+   t.statuses.user_timeline(screen_name="UMBigData", count=1)
+
+Note that the order of the arguments does not matter.  this is just as
+good:
+
+   t.statuses.user_timeline(count=1, screen_name="UMBigData")
+
+Even though we ask for only one tweet, it's returned as an array, so
+we want "tweets[0]"   We can print it:
+
+    print tweets[0]
+
+but the contents of a tweet are kind of ugly; they are encoded as JSON
+objects, a particular format for data exchange.  You can use the
+json.dumps line for a prettier version that spells out each of the
+fields more clearly:
+
+   print json.dumps(tweets[0],indent=4)
+
+If you want to access only some fields of the tweet, you can do so by
+name.  For example, we'll print just the text of the most recent
+UMBigData tweet:
+
+   print tweets[0]['text']
+
+Warning 1: the text is printed in a particular encoding which some
+terminals may or may not know how to handle.  If you are having
+trouble seeing the text of some tweets, let us know and we can help.
+
+Of course, we can ask for more than one, and we do that by increasing
+the "count" value:
+
+    t.statuses.user_timeline(screen_name="UMBigData", count=2)
+
+To work with each of the tweets returned, we use a loop across the
+returned array:
+
+def printTexts(tweets) :
+    for tweet in tweets :
+        print tweet['text']
+
+The version of this is in 
+
+    twoTweets.py
+
+------------------------
+
+Twitter only allows us to get at most 200 tweets at once.  If a user
+has more, we need some way of doing so.  twoTweets shows that even if
+you ask twice, you get the most recent tweets both times.
+
+Instead, we will use the tweet identifiers to limit the tweets we are
+asking for.  Each tweet is assigned a numerical identifier, and they
+are guaranteed to be unique and get larger over time.  So, if one
+tweet has a larger ID than another, it is more recent.
+
+We can use this for most of the "fetch timeline" operations; by
+specifying a maximum ID, you will only get tweets older than that one.
+
+The file fourTweets.py shows how this works.  All the work is done in
+printTexts().  It is handed an array of tweets, and iterates through
+them, printing the contents.  As it does so, it *also* keeps track of
+the *lowest* tweet ID it has seen, and returns that when it is done.
+
+We get the first two tweets, and print them.  That gives us the ID of
+the oldest of those two.  We want tweets that are *younger* than that,
+so our new maximum ID is *one less* than that.  We get those and move
+on.
+
+Warning 2: the number of tweets you ask for is the *upper bound* on the
+number you get back.  You might get back that many, or you might get
+fewer.  There are a variety of reasons for this that aren't worth
+going into.  But, if you ask for 20, you can't assume there will be 20.
+
+--------------------------------
+
+What if we want to do this for the user *running* the program, rather
+than UMBigData?  There's a *verb* for that!  Go back to the REST 1.1
+API page, and click on:
+
+     GET accounts/settings
+
+So we can get the authenticated user (you), by doing this:
+
+    settings = t.account.settings()
+    user = settings['screen_name'];
+
+That returns a user object, and that object includes the screen_name
+of the authenticated user.  So, we will add that to our
+get-four-tweets script, in
+
+    currentUser.py
+
+If you run this one, you should see *your* most recent four tweets,
+rather than UMBigData's.
+
+Note: for some reason, even though this is a GET, it is encoded as a
+POST.  So, our Sample App framework has been given read/write access.
+In other words, be careful, or you'll be posting a bunch of tweets as
+yourself!
+
+-------------------
+
+You can even use this to get all of the tweets that a user has
+ever tweeted.  The trick is you keep reading tweets until you can't get
+any more.  The file
+
+    allCurrentUser.py
+
+shows how this works.  We start with the "newest" tweet-ID by that
+user, and extract its nextID.
+
+    newest = t.statuses.user_timeline(screen_name=user,count=1)
+    nextID = newest[0]['id']
+
+When we start, we've printed none of the user's tweets:
+
+    total = 0
+    count = 0
+
+Now, we want a loop to keep running until we run out of tweets.  We
+don't know how long that will be, so we use "while True", which means
+"loop forever."
+
+(Don't worry, we won't really loop forever...)
+
+We get the next (up to) 200 tweets, and print them.  The printTexts()
+function returns *two* values---the oldest tweet seen so far, and the
+number of tweets printed this round.  We update our nextID and the
+total printed, sleep for a bit so we can see what is going on, and
+continue. 
+
+    while True :
+	tweets = t.statuses.user_timeline(screen_name=user, 
+					  count=200,
+					  max_id = nextID)
+	nextID, count = printTexts(tweets)
+	if (nextID is None) :
+	    break
+	nextID = nextID - 1
+	total = total + count
+	time.sleep(2)
+    
+
+We print the total at the end.  Note that we might not get every
+single tweet---again, that's because some might be missing "in the
+middle".  But we will get almost all of them!
+
+-------------------
+
+There is also a search API.  Note that search doesn't mean "search all
+tweets"---only a subset are indexed, and sometimes a surprisingly
+small subset.  But, it does give you the opportunity to do some
+exploration.
+
+A simple set of examples can be found in search.py
+
+The query language is very flexible.  For example, compare the current
+mentions of the Detroit Tigers (who lost on a walk-off *balk* late
+last night in Cleveland):
+
+    result = t.search.tweets(q="Detroit Tigers")
+
+To those before May 15th (when they were on a hot streak):
+
+    result = t.search.tweets(q="Detroit Tigers until:2014-05-15")
+
+You can also see some of my mentions of Tweet
+
+    result = t.search.tweets(q="from:bdnoble tweet")
+
+
+--------------------------
+
+You can also search based on location---this is useful if you want to
+compare reactions to the same event across different areas of the
+country.  For example, last night the LA Kings played the Chicago
+Blackhawks in the NHL playoffs.  So, you might want to see what each
+is saying about "hockey".
+
+First, you need a way to identify each place.  The file places.py
+gives some examples of looking things up.  For LA and Chicago, we just
+need the "Place ID".  For Ann Arbor, we'll want the "bounding
+box"---the square that encompasses all of the city.  We can look up
+any one of them this way:
+
+    annarbor = t.geo.search(query="Ann Arbor", granularity="city")
+
+Here are the location ids we need:
+
+3b77caf94bfc81fe    Los Angeles, CA
+1d9a5370a355ab0c      Chicago, IL
+
+Once we have those locations, we can get hockey mentions for both
+cities:
+
+    result = t.search.tweets(q="hockey place:3b77caf94bfc81fe")
+    result = t.search.tweets(q="hockey place:1d9a5370a355ab0c")
+
+(Note that this can be *from* that place, or *about* that place.)
+
+----------------------------------------------------
+
+There is another API that isn't a request/response mechanism.
+Instead, you get to "sample" the live twitter stream as it happens.
+This isn't the full stream---that's called the Firehose, and mere
+mortals don't get it---but this is a good sample of the total.
+
+The Stream interface is different from the REST API, so you have to
+create a different "master object" for it.  We authenticate as normal,
+but then use the authentication tokens to also create a stream:
+
+    t = oauthDance.login()
+
+    # Streaming is a different interface
+    ts = twitter.TwitterStream(auth=t.auth)
+
+You then create a "filter" that includes what you are interested in,
+and you get tweets that match that filter.  For example, if you were
+interested in Lions, Tigers, and Bears, you could do this:
+
+    # Oh My!
+    iterator = ts.statuses.filter(track="Lions,Tigers,Bears")
+
+    for tweet in iterator :
+	print tweet['text']
+
+
+This filter is implemented in the file stream.py.  It keeps running
+until you stop it.
+
+
+You can also limit your filters based on location.  For example,
+stream2.py uses the Ann Arbor location bounding box to get tweets
+from/about Ann Arbor.  (Note that this doesn't always work perfectly,
+but it usually comes close.)
+
+    # Ann Arbor Bounding Box from places lookup
+    # [-83.799572, 42.222668], [-83.675807, 42.222668], 
+    # [-83.675807, 42.323973], [-83.799572, 42.323973]
+    #
+    # For location, we use Longitude then Latitutde.
+    # Southern/western corner first
+    # Northern/eastern corner second
+
+    iterator = ts.statuses.filter(locations="-83.8,42.223,-83.676,42.324")
+
+
+It's a little disturbing to watch what gets tweeted in A2,
+particularly late at night....
